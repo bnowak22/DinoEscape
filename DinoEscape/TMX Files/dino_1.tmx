@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="200" height="20" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="forst_floor" tilewidth="32" tileheight="32">
+  <image source="../../Tiled/forest-theme/forest-2.png" width="911" height="992"/>
+ </tileset>
+ <tileset firstgid="869" name="tileset_foliage" tilewidth="32" tileheight="32">
+  <image source="../../Tiled/forest-theme/forest-3.png" width="1023" height="951"/>
+ </tileset>
+ <tileset firstgid="1768" name="forest-1" tilewidth="32" tileheight="32">
+  <image source="../../Tiled/forest-theme/forest-1.png" width="1015" height="1017"/>
+ </tileset>
+ <layer name="background" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt08sNglAURdE3pj7QOhDFNgQ/9XoqMJoQ5JG1kj2/g3NLAQAAAAAAAAAAAFhH25TSpUM6Nv++5rOabqVuffZ1SkM6p0sa03WDu/vlVj/EEm7ZzpTmdE+P9EyvDW7qm1tr+ndYW03/DgAAe/cGrFUbsg==
+  </data>
+ </layer>
+ <layer name="hazards" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt0rENACEQA8GL6BpoBKiVK4EPPgDNSJs5dAQAAAAAAAAAAAAAcLtaIlrWyz97uNnIn89sHf796x4AAABesgHV/gbr
+  </data>
+ </layer>
+ <layer name="walls" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt0ksKwkAQhOHOLnMG9SLqRdRdfJ4iPo+tYu1sJAacMWHE/4OCQE+lQxgzAAAAAAAAAAAAAAAAAMC/uJZmN+Ve9tf1vZT9QNcGwWyojEJ/Xd9L2Q90bax7OVGmEfcztut7KfvxW6rCbKmslLWyUbbKrsh3NtO9nCuL8Pk7fTe2559fe01y+GfM3s+qlvO1slcOylE5KWflwixq1iTH72T2nNUt5wEAAPBdD9VDwaY=
+  </data>
+ </layer>
+</map>
