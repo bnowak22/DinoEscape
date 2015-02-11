@@ -14,6 +14,7 @@
 @property (nonatomic, strong) TMXLayer *walls;
 @property (nonatomic, strong) TMXLayer *hazards;
 @property (nonatomic, assign) BOOL gameOver;
+@property (nonatomic, strong) UIButton *replay;
 @end
 
 @implementation GameLevelScene
@@ -41,6 +42,13 @@
       self.player.position = CGPointMake(100, 50);
       self.player.zPosition = 15;
       [self.map addChild:self.player];
+      
+      //setup replay button
+      self.replay = [UIButton buttonWithType:UIButtonTypeCustom];
+      UIImage *replayImage = [UIImage imageNamed:@"replay"];
+      [self.replay setImage:replayImage forState:UIControlStateNormal];
+      [self.replay addTarget:self action:@selector(replay:) forControlEvents:UIControlEventTouchUpInside];
+      self.replay.frame = CGRectMake(self.size.width / 2.0 - replayImage.size.width / 2.0, self.size.height / 2.0 - replayImage.size.height / 2.0, replayImage.size.width, replayImage.size.height);
   }
   return self;
 }
@@ -233,28 +241,19 @@
         self.player.texture = [SKTexture textureWithImageNamed:@"small_sad"];
     }
     
-    //3
     SKLabelNode *endGameLabel = [SKLabelNode labelNodeWithFontNamed:@"Marker Felt"];
     endGameLabel.text = gameText;
     endGameLabel.fontSize = 32;
     endGameLabel.position = CGPointMake(self.size.width / 2.0, self.size.height / 1.7);
     [self addChild:endGameLabel];
-    
-    //4
-    UIButton *replay = [UIButton buttonWithType:UIButtonTypeCustom];
-    replay.tag = 321;
-    UIImage *replayImage = [UIImage imageNamed:@"replay"];
-    [replay setImage:replayImage forState:UIControlStateNormal];
-    [replay addTarget:self action:@selector(replay:) forControlEvents:UIControlEventTouchUpInside];
-    replay.frame = CGRectMake(self.size.width / 2.0 - replayImage.size.width / 2.0, self.size.height / 2.0 - replayImage.size.height / 2.0, replayImage.size.width, replayImage.size.height);
-    [self.view addSubview:replay];
+
+    //add replay button
+    [self.view addSubview:self.replay];
 }
 
 - (void)replay:(id)sender
 {
-    //5
-    [[self.view viewWithTag:321] removeFromSuperview];
-    //6
+    [self.replay removeFromSuperview];
     [self.view presentScene:[[GameLevelScene alloc] initWithSize:self.size]];
 }
 

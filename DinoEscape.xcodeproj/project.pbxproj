@@ -19,7 +19,6 @@
 		B5B3A4411A77EAA800B43536 /* JSTileMap.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B3A43E1A77EAA800B43536 /* JSTileMap.m */; };
 		B5B3A4421A77EAA800B43536 /* LFCGzipUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B3A4401A77EAA800B43536 /* LFCGzipUtility.m */; };
 		B5B3A44E1A77EAD100B43536 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B3A4441A77EAD100B43536 /* AppDelegate.m */; };
-		B5B3A44F1A77EAD100B43536 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B3A4461A77EAD100B43536 /* Main.storyboard */; };
 		B5B3A4501A77EAD100B43536 /* GameLevelScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B3A4491A77EAD100B43536 /* GameLevelScene.m */; };
 		B5B3A4511A77EAD100B43536 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B3A44B1A77EAD100B43536 /* Player.m */; };
 		B5B3A4521A77EAD100B43536 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B3A44D1A77EAD100B43536 /* ViewController.m */; };
@@ -28,8 +27,6 @@
 		B5B3A4581A77EB2800B43536 /* level1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5B3A4551A77EB2800B43536 /* level1.mp3 */; };
 		B5B3A4601A77EC1A00B43536 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B5B3A45F1A77EC1A00B43536 /* sprites.atlas */; };
 		B5B3A4621A77EC4F00B43536 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B3A4611A77EC4F00B43536 /* Images.xcassets */; };
-		B5B3A5901A7818DD00B43536 /* replay.png in Resources */ = {isa = PBXBuildFile; fileRef = B5B3A58E1A7818DD00B43536 /* replay.png */; };
-		B5B3A5911A7818DD00B43536 /* replay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5B3A58F1A7818DD00B43536 /* replay@2x.png */; };
 		B5F8653C1A79256900167C8F /* dino_1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = B5F865361A79256900167C8F /* dino_1.tmx */; };
 		B5F8653D1A79256900167C8F /* forest-3.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F865371A79256900167C8F /* forest-3.png */; };
 		B5F8653E1A79256900167C8F /* ground-1.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F865381A79256900167C8F /* ground-1.png */; };
@@ -73,7 +70,6 @@
 		B5B3A4401A77EAA800B43536 /* LFCGzipUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFCGzipUtility.m; path = DinoEscape/LFCGzipUtility.m; sourceTree = SOURCE_ROOT; };
 		B5B3A4431A77EAD100B43536 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DinoEscape/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		B5B3A4441A77EAD100B43536 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = DinoEscape/AppDelegate.m; sourceTree = SOURCE_ROOT; };
-		B5B3A4471A77EAD100B43536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		B5B3A4481A77EAD100B43536 /* GameLevelScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameLevelScene.h; path = DinoEscape/GameLevelScene.h; sourceTree = SOURCE_ROOT; };
 		B5B3A4491A77EAD100B43536 /* GameLevelScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameLevelScene.m; path = DinoEscape/GameLevelScene.m; sourceTree = SOURCE_ROOT; };
 		B5B3A44A1A77EAD100B43536 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = DinoEscape/Player.h; sourceTree = SOURCE_ROOT; };
@@ -85,8 +81,6 @@
 		B5B3A4551A77EB2800B43536 /* level1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = level1.mp3; path = DinoEscape/level1.mp3; sourceTree = SOURCE_ROOT; };
 		B5B3A45F1A77EC1A00B43536 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = sprites.atlas; path = DinoEscape/sprites.atlas; sourceTree = SOURCE_ROOT; };
 		B5B3A4611A77EC4F00B43536 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DinoEscape/Images.xcassets; sourceTree = SOURCE_ROOT; };
-		B5B3A58E1A7818DD00B43536 /* replay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = replay.png; path = ../DinoEscape/sprites.atlas/replay.png; sourceTree = "<group>"; };
-		B5B3A58F1A7818DD00B43536 /* replay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "replay@2x.png"; path = "../DinoEscape/sprites.atlas/replay@2x.png"; sourceTree = "<group>"; };
 		B5F865361A79256900167C8F /* dino_1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = dino_1.tmx; path = "DinoEscape/TMX Files/dino_1.tmx"; sourceTree = SOURCE_ROOT; };
 		B5F865371A79256900167C8F /* forest-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "forest-3.png"; path = "DinoEscape/TMX Files/forest-3.png"; sourceTree = SOURCE_ROOT; };
 		B5F865381A79256900167C8F /* ground-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ground-1.png"; path = "DinoEscape/TMX Files/ground-1.png"; sourceTree = SOURCE_ROOT; };
@@ -156,7 +150,6 @@
 			children = (
 				F275B6CC186E25C1009F6E6B /* SKTUtils */,
 				F275B6C9186E2442009F6E6B /* JSTileMap */,
-				B5B3A4461A77EAD100B43536 /* Main.storyboard */,
 				B5B3A4431A77EAD100B43536 /* AppDelegate.h */,
 				B5B3A4441A77EAD100B43536 /* AppDelegate.m */,
 				B5B3A4481A77EAD100B43536 /* GameLevelScene.h */,
@@ -212,8 +205,6 @@
 				B5F865421A7925C400167C8F /* small_sad.png */,
 				B5F865431A7925C400167C8F /* small_stand.png */,
 				B5F865441A7925C400167C8F /* small_walk.png */,
-				B5B3A58E1A7818DD00B43536 /* replay.png */,
-				B5B3A58F1A7818DD00B43536 /* replay@2x.png */,
 				B5B3A45F1A77EC1A00B43536 /* sprites.atlas */,
 				F275B6C0186E21D1009F6E6B /* Audio */,
 				F275B6C1186E21D9009F6E6B /* TMX Files */,
@@ -315,14 +306,11 @@
 				B5F8653D1A79256900167C8F /* forest-3.png in Resources */,
 				B5F8653E1A79256900167C8F /* ground-1.png in Resources */,
 				B5B3A4601A77EC1A00B43536 /* sprites.atlas in Resources */,
-				B5B3A5911A7818DD00B43536 /* replay@2x.png in Resources */,
 				B5B3A4621A77EC4F00B43536 /* Images.xcassets in Resources */,
 				B5F865461A7925C400167C8F /* small_stand.png in Resources */,
-				B5B3A5901A7818DD00B43536 /* replay.png in Resources */,
 				B5F8653F1A79256900167C8F /* level1.tmx in Resources */,
 				B5F865401A79256900167C8F /* tileSet.png in Resources */,
 				B5F865471A7925C400167C8F /* small_walk.png in Resources */,
-				B5B3A44F1A77EAD100B43536 /* Main.storyboard in Resources */,
 				B5F8653C1A79256900167C8F /* dino_1.tmx in Resources */,
 				B5B3A4561A77EB2800B43536 /* hurt.wav in Resources */,
 			);
@@ -354,18 +342,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		B5B3A4461A77EAD100B43536 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B5B3A4471A77EAD100B43536 /* Base */,
-			);
-			name = Main.storyboard;
-			path = ../DinoEscape/Base.lproj;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F275B6A4186E0B06009F6E6B /* Debug */ = {
